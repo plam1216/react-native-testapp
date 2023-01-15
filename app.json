@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sample-crate-mobile",
-    "slug": "sample-crate-mobile",
+    "name": "react-native-testapp",
+    "slug": "react-native-testapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#25292e"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

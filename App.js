@@ -16,9 +16,14 @@ import EmojiSticker from './Components/EmojiSticker/EmojiSticker.js';
 import * as ImagePicker from 'expo-image-picker'
 import * as MediaLibrary from 'expo-media-library'
 import domtoimage from 'dom-to-image'
+import * as SplashScreen from 'expo-splash-screen';
 
 
 const PlaceholderImage = require('./assets/images/coverart.jpg')
+
+// SplashScreen.preventAutoHideAsync();
+// setTimeout(SplashScreen.hideAsync, 5000);
+
 
 export default function App() {
   const imageRef = useRef()
@@ -136,7 +141,8 @@ export default function App() {
         <EmojiPicker isVisible={isModalVisible} onClose={onModalClose}>
           <EmojiList onSelect={setPickedEmoji} onCloseModal={onModalClose} />
         </EmojiPicker>
-        <StatusBar style="auto" />
+
+        <StatusBar style="light" />
 
       </View>
     </GestureHandlerRootView >
